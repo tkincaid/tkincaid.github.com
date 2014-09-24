@@ -1,0 +1,73 @@
+- dataset_name: allstate-nonzero.csv
+  metric: Gini Norm
+  target: Claim_Amount
+- dataset_name: AutoBI.csv
+  metric: Gini Norm
+  target: LOSS
+- dataset_name: AutoClaims.csv
+  metric: Gini Norm
+  target: PAID
+- dataset_name: baseY.csv
+  metric: Gini Norm
+  target: cout
+- dataset_name: cal_housing.csv
+  metric: Gini Norm
+  target: medianHouseValue
+- dataset_name: census_2012p_small.csv
+  metric: Gini Norm
+  target: WEIGHT
+- dataset_name: fastiron-train-sample.csv
+  metric: Gini Norm
+  target: SalePrice
+- dataset_name: French_DAMAGE_sev.csv
+  metric: Gini Norm
+  target: cout
+- dataset_name: French_THEFT_sev.csv
+  metric: Gini Norm
+  target: cout
+- dataset_name: French_TP_sev.csv
+  metric: Gini Norm
+  target: cout
+- dataset_name: French_WINDSCREEN_sev.csv
+  metric: Gini Norm
+  target: cout
+- dataset_name: FrenchMotor1_sev.csv
+  metric: Gini Norm
+  target: coutsin
+- dataset_name: HealthExpendIP_sev.csv
+  metric: Gini Norm
+  target: EXPENDIP
+- dataset_name: HealthExpendIP_sev2.csv
+  metric: Gini Norm
+  target: EXPENDIP
+- dataset_name: HealthExpendOP_sev.csv
+  metric: Gini Norm
+  target: EXPENDOP
+- dataset_name: HealthExpendOP_sev2.csv
+  metric: Gini Norm
+  target: EXPENDOP
+- dataset_name: Heller_Motor_sev.csv
+  metric: Gini Norm
+  target: claimcst0
+- dataset_name: Heller_Motor_sev2.csv
+  metric: Gini Norm
+  target: claimcst0
+- dataset_name: MLB2008.csv
+  metric: Gini Norm
+  target: SALARY
+- dataset_name: TexasClosedClaims.csv
+  metric: Gini Norm
+  target: total_settlement
+- dataset_name: world_bank_edu.csv
+  metric: Gini Norm
+  target: Unemployment
+- dataset_name: boston_housing.csv
+  metric: Gini Norm
+  target: MEDV
+- dataset_name: ABProteins_train_converted.csv
+  metric: Gini Norm
+  target: y
+- dataset_name: mlcomp1452_AlphaProteins_train.csv
+  metric: Gini Norm
+  target: y
+- {}

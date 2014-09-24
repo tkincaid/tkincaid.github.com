@@ -1,0 +1,75 @@
+- dataset_name: fastiron-train-sample.csv
+  metric: Gamma Deviance
+  target: SalePrice
+- dataset_name: Foods.csv
+  metric: Gamma Deviance
+  target: calories
+- dataset_name: forestfires.csv
+  metric: MAD
+  target: area
+- dataset_name: French_DAMAGE_sev.csv
+  metric: Gamma Deviance
+  target: cout
+- dataset_name: French_THEFT_sev.csv
+  metric: Gamma Deviance
+  target: cout
+- dataset_name: French_TP_sev.csv
+  metric: Gamma Deviance
+  target: cout
+- dataset_name: French_WINDSCREEN_sev.csv
+  metric: Gamma Deviance
+  target: cout
+- dataset_name: FrenchMotor1_sev.csv
+  metric: Gamma Deviance
+  target: coutsin
+- dataset_name: Gamblers.csv
+  metric: LogLoss
+  target: YES_ALCOHOL
+- dataset_name: german_credit-friendly.csv
+  metric: LogLoss
+  target: Target
+- dataset_name: GES12_no_unknown_cases.csv
+  metric: Poisson Deviance
+  target: INJSEV_IM
+- dataset_name: grant_training.csv
+  metric: LogLoss
+  target: Grant_Status
+- dataset_name: grockit_train_small_no_outcome.csv
+  metric: LogLoss
+  target: correct
+- dataset_name: HealthExpendIP_sev.csv
+  metric: Gamma Deviance
+  target: EXPENDIP
+- dataset_name: HealthExpendIP_sev2.csv
+  metric: Gamma Deviance
+  target: EXPENDIP
+- dataset_name: HealthExpendOP_sev.csv
+  metric: Gamma Deviance
+  target: EXPENDOP
+- dataset_name: HealthExpendOP_sev2.csv
+  metric: Gamma Deviance
+  target: EXPENDOP
+- dataset_name: Heller_Motor_sev.csv
+  metric: Gamma Deviance
+  target: claimcst0
+- dataset_name: Heller_Motor_sev2.csv
+  metric: Gamma Deviance
+  target: claimcst0
+- dataset_name: HIGGS-110000.csv
+  metric: LogLoss
+  target: Class
+- dataset_name: HIGGS-30000.csv
+  metric: LogLoss
+  target: Class
+- dataset_name: hosp.csv
+  metric: Poisson Deviance
+  target: hosp
+- dataset_name: influencers_full.csv
+  metric: LogLoss
+  target: Choice
+- dataset_name: interaction-regression-test_train_converted.csv
+  metric: RMSE
+  target: y
+- dataset_name: Iraq_incident_spending.csv
+  metric: Gamma Deviance
+  target: SIG_1

@@ -1,0 +1,186 @@
+filename,response,desired metric,uploaded in S3,>30
+2006_2010_Draft_Tools_for_is50p.csv,is50p,LogLoss,Y,N
+20news-hardware_train_converted.csv,y,LogLoss,Y,N
+250p_PA_HS_3_years_since_debut_predict_70p.csv,is_70p,LogLoss,Y,N
+250p_PA_HS_Age_23_predict_next_2.csv,Next 2 years Grade,accuracy default,Y,N
+28_Features_split_train_converted.csv,y,LogLoss,Y,Y
+300p_PA_All_Players_All_Info.csv,6 year grade Proj,accuracy default,Y,N
+ABProteins_train_converted.csv,y,accuracy default,Y,N
+accident.csv,fatals,accuracy default,Y,Y
+add10.csv,y,accuracy default,Y,N
+AirlineFlights2008-reduced-35000.csv,ArrDelay,accuracy default,Y,Y
+AirlineFlights2008-reduced-70000.csv,ArrDelay,accuracy default,Y,Y
+All_Players_All_Years_wconf_b_t_ht_wt_actpos_scouting_predict_isML.csv,isML,LogLoss,Y,N
+All_Players_All_Years_wconf_b_t_ht_wt_pos_predict_role.csv,Grade 2014,accuracy default,Y,N
+allegan_weather.csv,PRCP,accuracy default,Y,N
+allstate-nonzero.csv,Claim_Amount,accuracy default,Y,Y
+amazon_de_reviews_small.csv,rating,accuracy default,Y,N
+amazon_fr_reviews_small.csv,rating,accuracy default,Y,N
+amazon_full.csv,ACTION,LogLoss,Y,Y
+amazon_small.csv,ACTION,LogLoss,Y,N
+AmericanTime2010Edited.csv,WAGE,accuracy default,Y,N
+amis.csv,speed,accuracy default,Y,N
+AutoBI.csv,LOSS,accuracy default,Y,N
+AutoClaims.csv,PAID,accuracy default,Y,N
+azpro.csv,los,accuracy default,Y,N
+bank_marketing_full.csv,y,LogLoss,Y,Y
+baseY.csv,cout,accuracy default,Y,N
+Benefits.csv,ui,LogLoss,Y,N
+bio_grid_small.csv,Throughput,LogLoss,Y,N
+bio_response_combined.csv,Activity,LogLoss,Y,N
+boston_housing.csv,MEDV,accuracy default,Y,N
+BostonPublicRaises.csv,RAISE,accuracy default,Y,N
+breast-cancer-wisconsin.csv,Class,LogLoss,Y,N
+BudgetFood.csv,wfood,accuracy default,Y,N
+cal_housing.csv,medianHouseValue,accuracy default,Y,N
+census_1990_small.csv,iClass,accuracy default,Y,N
+census_2012h_small.csv,VEHICLES,accuracy default,Y,N
+census_2012p_small.csv,WEIGHT,accuracy default,Y,N
+census_salary_full.csv,Salary,LogLoss,Y,Y
+chargeback_small_clean.csv,chargeback,LogLoss,Y,N
+clean-bidder-data.csv,click,LogLoss,Y,N
+college.csv,Grad.Rate,accuracy default,Y,N
+CollegeSportsExpenses.csv,HDCOACH_SALARY_MEN,accuracy default,Y,N
+colon-cancer.csv,IsCancer,LogLoss,Y,N
+correct_s1__eg2008jk_train_converted.csv,y,LogLoss,Y,N
+covtype_small.csv,Spruce,LogLoss,Y,N
+credit-train-full.csv,SeriousDlqin2yrs,LogLoss,Y,Y
+credit-train-small.csv,SeriousDlqin2yrs,LogLoss,Y,N
+crime-friendly.csv,ViolentCrimesPerPop,accuracy default,Y,N
+crys_1vsrest_88atoms_train_converted.csv,y,LogLoss,Y,N
+dave-drTestSet.csv,resp,AUC,Y,Y
+diagnostic_bc.csv,Malignant,LogLoss,Y,N
+diamonds.csv,price,accuracy default,Y,N
+DoctorContacts.csv,mdu,accuracy default,Y,N
+educational_expenses.csv,Salaries,accuracy default,Y,N
+el-nino-friendly-30000.csv,s.s. temp.,accuracy default,Y,N
+el-nino-friendly.csv,s.s. temp.,accuracy default,Y,Y
+emr.csv,emr,accuracy default,Y,N
+F_6Features_train_converted.csv,y,LogLoss,Y,Y
+fastiron-train-sample.csv,SalePrice,accuracy default,Y,N
+FIXED_3_year_stats_for_Juniors_150p_PA_predict_role.csv,Grade 2014,accuracy default,Y,N
+Foods.csv,calories,accuracy default,Y,N
+forestfires.csv,area,accuracy default,Y,N
+forrest-output.csv,front,LogLoss,Y,N
+forrest-wine-lasso-selected-vars-additional-columns2-wine-userID.csv,rating,accuracy default,Y,N
+French_DAMAGE_sev.csv,cout,accuracy default,Y,N
+French_THEFT_sev.csv,cout,accuracy default,Y,N
+French_TP_sev.csv,cout,accuracy default,Y,N
+French_WINDSCREEN_sev.csv,cout,accuracy default,Y,N
+FrenchMotor1_sev.csv,coutsin,accuracy default,Y,N
+Gamblers.csv,YES_ALCOHOL,LogLoss,Y,N
+german_credit-friendly.csv,Target,LogLoss,Y,N
+GES12_no_unknown_cases.csv,INJSEV_IM,accuracy default,Y,Y
+grant_training.csv,Grant.Status,LogLoss,Y,N
+grockit_train_small_no_outcome.csv,correct,LogLoss,Y,Y
+HealthExpendIP_sev.csv,EXPENDIP,accuracy default,Y,N
+HealthExpendIP_sev2.csv,EXPENDIP,accuracy default,Y,N
+HealthExpendOP_sev.csv,EXPENDOP,accuracy default,Y,N
+HealthExpendOP_sev2.csv,EXPENDOP,accuracy default,Y,N
+Heller_Motor_sev.csv,claimcst0,accuracy default,Y,N
+Heller_Motor_sev2.csv,claimcst0,accuracy default,Y,N
+HIGGS-110000.csv,Class,LogLoss,Y,Y
+HIGGS-30000.csv,Class,LogLoss,Y,N
+hosp.csv,hosp,accuracy default,Y,N
+influencers_full.csv,Choice,LogLoss,Y,N
+interaction-regression-test_train_converted.csv,y,accuracy default,Y,Y
+Iraq_incident_spending.csv,SIG_1,accuracy default,Y,N
+islr_stock_market_class.csv,Direction,LogLoss,Y,N
+islr_stock_market_reg.csv,Today,accuracy default,Y,N
+josh-datarob1.csv,GROUP_NBR,LogLoss,Y,Y
+kdd_1998_small.csv,TARGET_D,accuracy default,Y,N
+kdd_2009_full.csv,churn,LogLoss,Y,Y
+kickcars_train_full.csv,IsBadBuy,LogLoss,Y,Y
+LoanStats3a-friendly.csv,delinq_2yrs,accuracy default,Y,Y
+madelon_combined.csv,y,LogLoss,Y,N
+MAGIC-Gamma-Telescope.csv,class,LogLoss,Y,N
+mat_train_converted.csv,y,LogLoss,Y,Y
+MedExp.csv,med,accuracy default,Y,N
+mfblong.csv,bwt,accuracy default,Y,N
+mini_boone_full.csv,electron,LogLoss,Y,Y
+mini_boone_small.csv,electron,LogLoss,Y,N
+MLB2008.csv,SALARY,accuracy default,Y,N
+mlcomp1220_User-Event-Features_train.csv,y,accuracy default,Y,N
+mlcomp1343_adult_ben_train.csv,y,LogLoss,Y,N
+mlcomp1438_derivation-stats-balanced2_train.csv,y,LogLoss,Y,N
+mlcomp1452_AlphaProteins_train.csv,y,accuracy default,Y,N
+mlcomp1617_repere_train.csv,y,LogLoss,Y,Y
+mlcomp551_etf300-fractal-f20-126_train.csv,y,accuracy default,Y,N
+mlcomp680_ccs-challenge-dataset_train.csv,y,LogLoss,Y,N
+mlcomp701_Sales_7756-2._train.csv,y,accuracy default,Y,N
+mortDefault2009.csv,default,LogLoss,Y,Y
+movies.csv,rating,accuracy default,Y,Y
+msd_small.csv,Year,accuracy default,Y,N
+NCAAB2009.csv,score_delta,accuracy default,Y,N
+New_York_Mets_Ian_11.csv,Grade,accuracy default,Y,N
+New_York_Mets.csv,Grade,accuracy default,Y,N
+nfl_stats_cls.csv,OffGreaterThanDef,LogLoss,Y,N
+nfl_stats_reg.csv,OffMinusDef,accuracy default,Y,N
+ofnp.csv,ofnp,accuracy default,Y,N
+ofp.csv,ofp,accuracy default,Y,N
+Omnibus_Oct_2013_Pictorial_csv.csv,age,accuracy default,Y,N
+OnCampusArrests.csv,LIQUOR12,accuracy default,Y,N
+opnp.csv,opnp,accuracy default,Y,N
+opp.csv,opp,accuracy default,Y,N
+photo_quality_full.csv,good,LogLoss,Y,Y
+photo_quality_small.csv,good,LogLoss,Y,N
+PredictFix_train_comments.csv,num_comments,accuracy default,Y,Y
+PregnancyOutcomes.csv,BirthWeight,accuracy default,Y,N
+PSID.csv,earnings,accuracy default,Y,N
+pumadyn.csv,thetadd6,accuracy default,Y,N
+r_recommend_full.csv,Installed,LogLoss,Y,Y
+r_recommend_small.csv,Installed,LogLoss,Y,N
+radon-activity.csv, activity,accuracy default,Y,N
+rhh-rhp-inz-sw-noSA -Fastballs - predict sw_ms.csv,is_ms,LogLoss,Y,N
+rollingsales_brooklyn.csv,SALE PRICE,accuracy default,Y,N
+rotten_tomatoes_train.csv,Sentiment,accuracy default,Y,Y
+rwm.csv,docvis,accuracy default,Y,N
+sarcos-robot-10000.csv,Target,accuracy default,Y,N
+sarcos-robot.csv,Target,accuracy default,Y,Y
+sat_act_gpa.csv,GPA,accuracy default,Y,N
+Schooling.csv,wage76,accuracy default,Y,N
+secom.csv,Target,LogLoss,Y,N
+SLID.csv,wages,accuracy default,Y,N
+spot-prices-linux.csv,SpotPrice,accuracy default,Y,N
+spot-prices.csv,SpotPrice,accuracy default,Y,N
+SUSY-50000.csv,V1,LogLoss,Y,Y
+TexasClosedClaims.csv,total_settlement,accuracy default,Y,N
+tilt_train_converted.csv,y,accuracy default,Y,N
+tmathssk.csv,tmathssk,accuracy default,Y,N
+Tools and Stats for college players.csv,grade,accuracy default,Y,N
+train_ground_balls.csv,hfx_gb,LogLoss,Y,Y
+train_swing_and_miss.csv,is_ms,LogLoss,Y,Y
+trainingDataWithoutNegativeWeights.csv,classification,LogLoss,Y,Y
+treadssk.csv,treadssk,accuracy default,Y,N
+ufo_awesome.csv,reporting_delay,accuracy default,Y,Y
+UML-bus-times.csv,TimeRemaining,accuracy default,Y,Y
+VietNamI.csv,lnhhexp,accuracy default,Y,N
+Wages.csv,lwage,accuracy default,Y,N
+weather_large.csv,TomorrowMaxTemp,accuracy default,Y,Y
+weather_small.csv,TomorrowMaxTemp,accuracy default,Y,N
+web-graph-data-2007-train_converted.csv,y,LogLoss,Y,N
+wells.csv,switch,LogLoss,Y,N
+william-trainingNA.csv,Label,AUC,Y,Y
+Workinghours.csv,hours,accuracy default,Y,N
+world_bank_edu.csv,Unemployment,accuracy default,Y,N
+item2.csv,score,accuracy default,Y,N
+item5.csv,score,accuracy default,Y,N
+item6.csv,score,accuracy default,Y,N
+item8.csv,score,accuracy default,Y,N
+item12.csv,score,accuracy default,Y,N
+item20.csv,score,accuracy default,Y,N
+KDD14_text_features_1000.csv,is_exciting_num,LogLoss,Y,Y
+blakhol_rg_test_5_train_converted.csv,y,RMSE,Y
+father_train_converted.csv,y,LogLoss,Y
+mat1_train_converted.csv,y,Logloss,Y
+roll_train_converted.csv,y,RMSE,Y
+cburford-phrase_unique_match_train.csv,y,LogLoss,Y
+cemst-decision-prediction2-asr3_train.csv,y,LogLoss,Y
+cemst-decision-prediction2-asr2_train.csv,y,LogLoss,Y
+cemst-decision-prediction-asr0_train.csv,y,LogLoss,Y
+musk-2_train.csv,y,LogLoss,Y
+repere-fusion-spk_train.csv,y,LogLoss,Y
+thyroid-dis_train.csv,y,LogLoss,Y
+thyroid-euthyroid_train.csv,y,LogLoss,Y
+thyroid-sick_train.csv,y,LogLoss,Y
+africa_without_issuenote.csv,fatal,LogLoss,Y

@@ -1,0 +1,356 @@
+- dataset_name: census_1990_small.csv
+  metric: Poisson Deviance
+  target: iClass
+  worker_size: ''
+- dataset_name: census_2012h_small.csv
+  metric: Poisson Deviance
+  target: VEHICLES
+  worker_size: ''
+- dataset_name: DoctorContacts.csv
+  metric: Poisson Deviance
+  target: mdu
+  worker_size: ''
+- dataset_name: emr.csv
+  metric: Poisson Deviance
+  target: emr
+  worker_size: ''
+- dataset_name: GES12_no_unknown_cases.csv
+  metric: Poisson Deviance
+  target: INJSEV_IM
+  worker_size: '>30'
+- dataset_name: hosp.csv
+  metric: Poisson Deviance
+  target: hosp
+  worker_size: ''
+- dataset_name: LoanStats3a-friendly.csv
+  metric: Poisson Deviance
+  target: delinq_2yrs
+  worker_size: '>30'
+- dataset_name: ofnp.csv
+  metric: Poisson Deviance
+  target: ofnp
+  worker_size: ''
+- dataset_name: ofp.csv
+  metric: Poisson Deviance
+  target: ofp
+  worker_size: ''
+- dataset_name: opnp.csv
+  metric: Poisson Deviance
+  target: opnp
+  worker_size: ''
+- dataset_name: opp.csv
+  metric: Poisson Deviance
+  target: opp
+  worker_size: ''
+- dataset_name: PredictFix_train_comments.csv
+  metric: Poisson Deviance
+  target: num_comments
+  worker_size: '>30'
+- dataset_name: rwm.csv
+  metric: Poisson Deviance
+  target: docvis
+  worker_size: ''
+- dataset_name: allstate-nonzero.csv
+  metric: Gamma Deviance
+  target: Claim_Amount
+  worker_size: '>30'
+- dataset_name: AutoBI.csv
+  metric: Gamma Deviance
+  target: LOSS
+  worker_size: ''
+- dataset_name: AutoClaims.csv
+  metric: Gamma Deviance
+  target: PAID
+  worker_size: ''
+- dataset_name: baseY.csv
+  metric: Gamma Deviance
+  target: cout
+  worker_size: ''
+- dataset_name: cal_housing.csv
+  metric: Gamma Deviance
+  target: medianHouseValue
+  worker_size: ''
+- dataset_name: census_2012p_small.csv
+  metric: Gamma Deviance
+  target: WEIGHT
+  worker_size: ''
+- dataset_name: CollegeSportsExpenses.csv
+  metric: Gamma Deviance
+  target: HDCOACH_SALARY_MEN
+  worker_size: ''
+- dataset_name: diamonds.csv
+  metric: Gamma Deviance
+  target: price
+  worker_size: ''
+- dataset_name: fastiron-train-sample.csv
+  metric: Gamma Deviance
+  target: SalePrice
+  worker_size: ''
+- dataset_name: Foods.csv
+  metric: Gamma Deviance
+  target: calories
+  worker_size: ''
+- dataset_name: French_DAMAGE_sev.csv
+  metric: Gamma Deviance
+  target: cout
+  worker_size: ''
+- dataset_name: French_THEFT_sev.csv
+  metric: Gamma Deviance
+  target: cout
+  worker_size: ''
+- dataset_name: French_TP_sev.csv
+  metric: Gamma Deviance
+  target: cout
+  worker_size: ''
+- dataset_name: French_WINDSCREEN_sev.csv
+  metric: Gamma Deviance
+  target: cout
+  worker_size: ''
+- dataset_name: FrenchMotor1_sev.csv
+  metric: Gamma Deviance
+  target: coutsin
+  worker_size: ''
+- dataset_name: HealthExpendIP_sev.csv
+  metric: Gamma Deviance
+  target: EXPENDIP
+  worker_size: ''
+- dataset_name: HealthExpendIP_sev2.csv
+  metric: Gamma Deviance
+  target: EXPENDIP
+  worker_size: ''
+- dataset_name: HealthExpendOP_sev.csv
+  metric: Gamma Deviance
+  target: EXPENDOP
+  worker_size: ''
+- dataset_name: HealthExpendOP_sev2.csv
+  metric: Gamma Deviance
+  target: EXPENDOP
+  worker_size: ''
+- dataset_name: Heller_Motor_sev.csv
+  metric: Gamma Deviance
+  target: claimcst0
+  worker_size: ''
+- dataset_name: Heller_Motor_sev2.csv
+  metric: Gamma Deviance
+  target: claimcst0
+  worker_size: ''
+- dataset_name: Iraq_incident_spending.csv
+  metric: Gamma Deviance
+  target: SIG_1
+  worker_size: ''
+- dataset_name: MLB2008.csv
+  metric: Gamma Deviance
+  target: SALARY
+  worker_size: ''
+- dataset_name: mlcomp701_Sales_7756-2._train.csv
+  metric: Gamma Deviance
+  target: y
+  worker_size: ''
+- dataset_name: radon-activity.csv
+  metric: Gamma Deviance
+  target: ' activity'
+  worker_size: ''
+- dataset_name: Schooling.csv
+  metric: Gamma Deviance
+  target: wage76
+  worker_size: ''
+- dataset_name: TexasClosedClaims.csv
+  metric: Gamma Deviance
+  target: total_settlement
+  worker_size: ''
+- dataset_name: UML-bus-times.csv
+  metric: Gamma Deviance
+  target: TimeRemaining
+  worker_size: '>30'
+- dataset_name: 250p_PA_HS_Age_23_predict_next_2.csv
+  metric: MAD
+  target: Next 2 years Grade
+  worker_size: ''
+- dataset_name: 300p_PA_All_Players_All_Info.csv
+  metric: MAD
+  target: 6 year grade Proj
+  worker_size: ''
+- dataset_name: accident.csv
+  metric: MAD
+  target: fatals
+  worker_size: '>30'
+- dataset_name: All_Players_All_Years_wconf_b_t_ht_wt_pos_predict_role.csv
+  metric: MAD
+  target: Grade 2014
+  worker_size: ''
+- dataset_name: allegan_weather.csv
+  metric: MAD
+  target: PRCP
+  worker_size: ''
+- dataset_name: AmericanTime2010Edited.csv
+  metric: MAD
+  target: WAGE
+  worker_size: ''
+- dataset_name: FIXED_3_year_stats_for_Juniors_150p_PA_predict_role.csv
+  metric: MAD
+  target: Grade 2014
+  worker_size: ''
+- dataset_name: forestfires.csv
+  metric: MAD
+  target: area
+  worker_size: ''
+- dataset_name: kdd_1998_small.csv
+  metric: MAD
+  target: TARGET_D
+  worker_size: ''
+- dataset_name: MedExp.csv
+  metric: MAD
+  target: med
+  worker_size: ''
+- dataset_name: mlcomp1220_User-Event-Features_train.csv
+  metric: MAD
+  target: y
+  worker_size: ''
+- dataset_name: New_York_Mets_Ian_11.csv
+  metric: MAD
+  target: Grade
+  worker_size: ''
+- dataset_name: New_York_Mets.csv
+  metric: MAD
+  target: Grade
+  worker_size: ''
+- dataset_name: OnCampusArrests.csv
+  metric: MAD
+  target: LIQUOR12
+  worker_size: ''
+- dataset_name: PSID.csv
+  metric: MAD
+  target: earnings
+  worker_size: ''
+- dataset_name: rollingsales_brooklyn.csv
+  metric: MAD
+  target: SALE PRICE
+  worker_size: ''
+- dataset_name: spot-prices-linux.csv
+  metric: MAD
+  target: SpotPrice
+  worker_size: ''
+- dataset_name: spot-prices.csv
+  metric: MAD
+  target: SpotPrice
+  worker_size: ''
+- dataset_name: Tools and Stats for college players.csv
+  metric: MAD
+  target: grade
+  worker_size: ''
+- dataset_name: Workinghours.csv
+  metric: MAD
+  target: hours
+  worker_size: ''
+- dataset_name: census_1990_small.csv
+  metric: Tweedie Deviance
+  target: iClass
+  worker_size: ''
+- dataset_name: census_2012h_small.csv
+  metric: Tweedie Deviance
+  target: VEHICLES
+  worker_size: ''
+- dataset_name: DoctorContacts.csv
+  metric: Tweedie Deviance
+  target: mdu
+  worker_size: ''
+- dataset_name: emr.csv
+  metric: Tweedie Deviance
+  target: emr
+  worker_size: ''
+- dataset_name: GES12_no_unknown_cases.csv
+  metric: Tweedie Deviance
+  target: INJSEV_IM
+  worker_size: '>30'
+- dataset_name: hosp.csv
+  metric: Tweedie Deviance
+  target: hosp
+  worker_size: ''
+- dataset_name: LoanStats3a-friendly.csv
+  metric: Tweedie Deviance
+  target: delinq_2yrs
+  worker_size: '>30'
+- dataset_name: ofnp.csv
+  metric: Tweedie Deviance
+  target: ofnp
+  worker_size: ''
+- dataset_name: ofp.csv
+  metric: Tweedie Deviance
+  target: ofp
+  worker_size: ''
+- dataset_name: opnp.csv
+  metric: Tweedie Deviance
+  target: opnp
+  worker_size: ''
+- dataset_name: opp.csv
+  metric: Tweedie Deviance
+  target: opp
+  worker_size: ''
+- dataset_name: PredictFix_train_comments.csv
+  metric: Tweedie Deviance
+  target: num_comments
+  worker_size: '>30'
+- dataset_name: rwm.csv
+  metric: Tweedie Deviance
+  target: docvis
+  worker_size: ''
+- dataset_name: CollegeSportsExpenses.csv
+  metric: Tweedie Deviance
+  target: HDCOACH_SALARY_MEN
+  worker_size: ''
+- dataset_name: Foods.csv
+  metric: Tweedie Deviance
+  target: calories
+  worker_size: ''
+- dataset_name: Iraq_incident_spending.csv
+  metric: Tweedie Deviance
+  target: SIG_1
+  worker_size: ''
+- dataset_name: mlcomp701_Sales_7756-2._train.csv
+  metric: Tweedie Deviance
+  target: y
+  worker_size: ''
+- dataset_name: radon-activity.csv
+  metric: Tweedie Deviance
+  target: ' activity'
+  worker_size: ''
+- dataset_name: UML-bus-times.csv
+  metric: Tweedie Deviance
+  target: TimeRemaining
+  worker_size: '>30'
+- dataset_name: allegan_weather.csv
+  metric: Tweedie Deviance
+  target: PRCP
+  worker_size: ''
+- dataset_name: AmericanTime2010Edited.csv
+  metric: Tweedie Deviance
+  target: WAGE
+  worker_size: ''
+- dataset_name: forestfires.csv
+  metric: Tweedie Deviance
+  target: area
+  worker_size: ''
+- dataset_name: kdd_1998_small.csv
+  metric: Tweedie Deviance
+  target: TARGET_D
+  worker_size: ''
+- dataset_name: MedExp.csv
+  metric: Tweedie Deviance
+  target: med
+  worker_size: ''
+- dataset_name: mlcomp1220_User-Event-Features_train.csv
+  metric: Tweedie Deviance
+  target: y
+  worker_size: ''
+- dataset_name: OnCampusArrests.csv
+  metric: Tweedie Deviance
+  target: LIQUOR12
+  worker_size: ''
+- dataset_name: PSID.csv
+  metric: Tweedie Deviance
+  target: earnings
+  worker_size: ''
+- dataset_name: Workinghours.csv
+  metric: Tweedie Deviance
+  target: hours
+  worker_size: ''

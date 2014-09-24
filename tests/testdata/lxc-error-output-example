@@ -1,0 +1,17 @@
+LXC exited with: 1. Logs: 2014-05-24 21:16:46,833:DEBUG:root:run_user_task start
+2014-05-24 21:16:46,836:DEBUG:root:Vertex USERTASK id=53810c3d637aba5145c13864: initialization...
+2014-05-24 21:16:46,837:DEBUG:root:Vertex USERTASK id=53810c3d637aba5145c13864: fit_predict...
+2014-05-24 21:16:46,842:ERROR:STDERR:Traceback (most recent call last):
+2014-05-24 21:16:46,843:ERROR:STDERR:  File "/task_workspace/input/run_user_task.py", line 112, in <module>
+2014-05-24 21:16:46,843:ERROR:STDERR:run(args['input_dir'], args['output_dir'])
+2014-05-24 21:16:46,843:ERROR:STDERR:  File "/task_workspace/input/run_user_task.py", line 74, in run
+2014-05-24 21:16:46,843:ERROR:STDERR:result = vertex._fit_and_act(**data.args)
+2014-05-24 21:16:46,843:ERROR:STDERR:  File "/task_workspace/input/ModelingMachine/engine/user_vertex.py", line 469, in _fit_and_act
+2014-05-24 21:16:46,843:ERROR:STDERR:step = step.fit( step.xTransform(step.subset(X, rows),xfunc), step.xTransform(step.subset(Y, rows),yfunc), fit_args=fit_args )   #step N
+2014-05-24 21:16:46,844:ERROR:STDERR:  File "/task_workspace/input/ModelingMachine/engine/user_vertex.py", line 215, in fit
+2014-05-24 21:16:46,844:ERROR:STDERR:self.model.fit(xt,yt)
+2014-05-24 21:16:46,844:ERROR:STDERR:  File "./usermodule.py", line 25, in fit
+2014-05-24 21:16:46,844:ERROR:STDERR:return UNDEFINED
+2014-05-24 21:16:46,844:ERROR:STDERR:NameError
+2014-05-24 21:16:46,844:ERROR:STDERR::
+2014-05-24 21:16:46,844:ERROR:STDERR:global name 'UNDEFINED' is not defined

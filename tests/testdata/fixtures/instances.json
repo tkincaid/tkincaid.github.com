@@ -1,0 +1,39 @@
+[
+    {
+        "_id": "5390d72e637aba560282102d",
+        "uid" : "5390d6f3637aba560282102b",
+        "is_dedicated" : 1,
+        "status":8,
+        "host_name":"secure-worker-6155.prod.aws.datarobot.com",
+        "resource":"secure-worker",
+        "type":"m3.2xlarge",
+        "created":1404820544.895199
+    },
+    {
+        "_id": "5390d734637aba560282102e",
+        "status":8,
+        "is_dedicated" : 1,
+        "host_name":"prediction-2000.prod.aws.datarobot.com",
+        "resource":"prediction",
+        "type":"m3.2xlarge",
+        "created":1400820544.895199
+    },
+    {
+        "_id": "3333333fdced6bc05c16884d",
+        "status":8,
+        "is_dedicated" : 1,
+        "host_name":"prediction-2001.prod.aws.datarobot.com",
+        "resource":"prediction",
+        "type":"m3.2xlarge",
+        "created":1401820544.895199
+    },
+    {
+        "_id": "4444444fdced6bc05c16884d",
+        "status":7,
+        "is_dedicated" : 1,
+        "host_name":"prediction-2002.prod.aws.datarobot.com",
+        "resource":"prediction",
+        "type":"m3.2xlarge",
+        "created":1402820544.895199
+    }
+]

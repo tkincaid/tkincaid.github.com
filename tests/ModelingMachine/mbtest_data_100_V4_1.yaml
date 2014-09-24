@@ -1,0 +1,75 @@
+- dataset_name: allegan_weather.csv
+  metric: MAD
+  target: PRCP
+- dataset_name: accident.csv
+  metric: Poisson Deviance
+  target: fatals
+- dataset_name: add10.csv
+  metric: RMSE
+  target: y
+- dataset_name: AirlineFlights2008-reduced-35000.csv
+  metric: RMSE
+  target: ArrDelay
+- dataset_name: AirlineFlights2008-reduced-70000.csv
+  metric: RMSE
+  target: ArrDelay
+- dataset_name: allstate-nonzero.csv
+  metric: Gamma Deviance
+  target: Claim_Amount
+- dataset_name: amazon_de_reviews_small.csv
+  metric: RMSE
+  target: rating
+- dataset_name: amazon_fr_reviews_small.csv
+  metric: RMSE
+  target: rating
+- dataset_name: amazon_full.csv
+  metric: LogLoss
+  target: ACTION
+- dataset_name: amazon_small.csv
+  metric: LogLoss
+  target: ACTION
+- dataset_name: AmericanTime2010Edited.csv
+  metric: MAD
+  target: WAGE
+- dataset_name: AutoBI.csv
+  metric: Gamma Deviance
+  target: LOSS
+- dataset_name: AutoClaims.csv
+  metric: Gamma Deviance
+  target: PAID
+- dataset_name: bank_marketing_full.csv
+  metric: LogLoss
+  target: y
+- dataset_name: baseY.csv
+  metric: Gamma Deviance
+  target: cout
+- dataset_name: bio_grid_small.csv
+  metric: LogLoss
+  target: Throughput
+- dataset_name: bio_response_combined.csv
+  metric: LogLoss
+  target: Activity
+- dataset_name: BostonPublicRaises.csv
+  metric: RMSE
+  target: RAISE
+- dataset_name: breast-cancer-wisconsin.csv
+  metric: LogLoss
+  target: Class
+- dataset_name: cal_housing.csv
+  metric: Gamma Deviance
+  target: medianHouseValue
+- dataset_name: census_1990_small.csv
+  metric: MAD
+  target: iClass
+- dataset_name: census_2012h_small.csv
+  metric: Poisson Deviance
+  target: VEHICLES
+- dataset_name: census_2012p_small.csv
+  metric: Gamma Deviance
+  target: WEIGHT
+- dataset_name: census_salary_full.csv
+  metric: LogLoss
+  target: Salary
+- dataset_name: chargeback_small_clean.csv
+  metric: LogLoss
+  target: chargeback

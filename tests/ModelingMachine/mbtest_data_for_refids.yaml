@@ -1,0 +1,105 @@
+- dataset_name: accident.csv
+  metric: Poisson Deviance
+  target: fatals
+- dataset_name: add10.csv
+  metric: RMSE
+  target: y
+- dataset_name: AirlineFlights2008-reduced-35000.csv
+  metric: RMSE
+  target: ArrDelay
+- dataset_name: AirlineFlights2008-reduced-70000.csv
+  metric: RMSE
+  target: ArrDelay
+- dataset_name: allstate-nonzero.csv
+  metric: Gamma Deviance
+  target: Claim_Amount
+- dataset_name: AutoBI.csv
+  metric: Gamma Deviance
+  target: LOSS
+- dataset_name: bio_grid_small.csv
+  metric: LogLoss
+  target: Throughput
+- dataset_name: census_1990_small.csv
+  metric: MAD
+  target: iClass
+- dataset_name: census_2012h_small.csv
+  metric: Poisson Deviance
+  target: VEHICLES
+- dataset_name: chargeback_small_clean.csv
+  metric: LogLoss
+  target: chargeback
+- dataset_name: credit-train-full.csv
+  metric: LogLoss
+  target: SeriousDlqin2yrs
+- dataset_name: credit-train-small.csv
+  metric: LogLoss
+  target: SeriousDlqin2yrs
+- dataset_name: diagnostic_bc.csv
+  metric: LogLoss
+  target: Malignant
+- dataset_name: fastiron-train-sample.csv
+  metric: Gamma Deviance
+  target: SalePrice
+- dataset_name: French_DAMAGE_sev.csv
+  metric: Gamma Deviance
+  target: cout
+- dataset_name: French_THEFT_sev.csv
+  metric: Gamma Deviance
+  target: cout
+- dataset_name: French_TP_sev.csv
+  metric: Gamma Deviance
+  target: cout
+- dataset_name: French_WINDSCREEN_sev.csv
+  metric: Gamma Deviance
+  target: cout
+- dataset_name: Gamblers.csv
+  metric: LogLoss
+  target: YES_ALCOHOL
+- dataset_name: grant_training.csv
+  metric: LogLoss
+  target: Grant.Status
+- dataset_name: HIGGS-30000.csv
+  metric: LogLoss
+  target: Class
+- dataset_name: islr_stock_market_class.csv
+  metric: LogLoss
+  target: Direction
+- dataset_name: islr_stock_market_reg.csv
+  metric: RMSE
+  target: Today
+- dataset_name: kdd_1998_small.csv
+  metric: MAD
+  target: TARGET_D
+- dataset_name: kickcars_train_full.csv
+  metric: LogLoss
+  target: IsBadBuy
+- dataset_name: madelon_combined.csv
+  metric: LogLoss
+  target: y
+- dataset_name: MLB2008.csv
+  metric: Gamma Deviance
+  target: SALARY
+- dataset_name: Omnibus_Oct_2013_Pictorial_csv.csv
+  metric: RMSE
+  target: age
+- dataset_name: photo_quality_full.csv
+  metric: LogLoss
+  target: good
+- dataset_name: photo_quality_small.csv
+  metric: LogLoss
+  target: good
+- dataset_name: radon-activity.csv
+  metric: RMSE
+  target: ' activity'
+- dataset_name: secom.csv
+  metric: LogLoss
+  target: Target
+- dataset_name: wells.csv
+  metric: LogLoss
+  target: switch
+- dataset_name: rotten_tomatoes_train.csv
+  metric: RMSE
+  target: Sentiment
+- dataset_name: PredictFix_train_comments.csv
+  metric: MAD
+  target: num_comments

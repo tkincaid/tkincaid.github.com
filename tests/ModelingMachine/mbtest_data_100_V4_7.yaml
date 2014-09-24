@@ -1,0 +1,75 @@
+- dataset_name: opp.csv
+  metric: MAD
+  target: opp
+- dataset_name: PSID.csv
+  metric: RMSE
+  target: earnings
+- dataset_name: rhh-rhp-inz-sw-noSA -Fastballs - predict sw_ms.csv
+  metric: LogLoss
+  target: is_ms
+- dataset_name: rwm.csv
+  metric: MAD
+  target: docvis
+- dataset_name: Schooling.csv
+  metric: Gamma Deviance
+  target: wage76
+- dataset_name: SLID.csv
+  metric: Gamma Deviance
+  target: wages
+- dataset_name: tmathssk.csv
+  metric: Gamma Deviance
+  target: tmathssk
+- dataset_name: Tools and Stats for college players.csv
+  metric: RMSE
+  target: grade
+- dataset_name: treadssk.csv
+  metric: Gamma Deviance
+  target: treadssk
+- dataset_name: VietNamI.csv
+  metric: Gamma Deviance
+  target: lnhhexp
+- dataset_name: Wages.csv
+  metric: RMSE
+  target: lwage
+- dataset_name: william-trainingNA.csv
+  metric: AUC
+  target: Label
+- dataset_name: Workinghours.csv
+  metric: RMSE
+  target: hours
+- dataset_name: item2.csv
+  metric: Poisson Deviance
+  target: score
+- dataset_name: item5.csv
+  metric: LogLoss
+  target: score
+- dataset_name: item6.csv
+  metric: Poisson Deviance
+  target: score
+- dataset_name: item8.csv
+  metric: Poisson Deviance
+  target: score
+- dataset_name: item12.csv
+  metric: Poisson Deviance
+  target: score
+- dataset_name: item20.csv
+  metric: LogLoss
+  target: score
+- dataset_name: KDD14_text_features_1000.csv
+  metric: LogLoss
+  target: is_exciting_num
+- dataset_name: blakhol_rg_test_5_train_converted.csv
+  metric: RMSE
+  target: y
+- dataset_name: father_train_converted.csv
+  metric: LogLoss
+  target: y
+- dataset_name: mat1_train_converted.csv
+  metric: Logloss
+  target: y
+- dataset_name: roll_train_converted.csv
+  metric: RMSE
+  target: y
+- dataset_name: cburford-phrase_unique_match_train.csv
+  metric: LogLoss
+  target: y

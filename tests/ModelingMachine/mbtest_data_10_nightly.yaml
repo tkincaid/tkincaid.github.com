@@ -1,0 +1,30 @@
+- dataset_name: amazon_de_reviews_small.csv
+  metric: RMSE
+  target: rating
+- dataset_name: amazon_small.csv
+  metric: AUC
+  target: ACTION
+- dataset_name: allstate-nonzero.csv
+  metric: Gamma Deviance
+  target: Claim_Amount
+- dataset_name: boston_housing.csv
+  metric: RMSLE
+  target: MEDV
+- dataset_name: TexasClosedClaims.csv
+  metric: Gamma Deviance
+  target: total_settlement
+- dataset_name: fastiron-train-sample.csv
+  metric: Gamma Deviance
+  target: SalePrice
+- dataset_name: madelon_combined.csv
+  metric: LogLoss
+  target: y
+- dataset_name: accident.csv
+  metric: Poisson Deviance
+  target: fatals
+- dataset_name: forestfires.csv
+  metric: Tweedie Deviance
+  target: area
+- dataset_name: New_York_Mets_Ian_11.csv
+  metric: MAD
+  target: Grade

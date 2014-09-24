@@ -1,0 +1,66 @@
+- dataset_name: allegan_weather.csv
+  metric: Tweedie Deviance
+  target: PRCP
+- dataset_name: AmericanTime2010Edited.csv
+  metric: Tweedie Deviance
+  target: WAGE
+- dataset_name: census_1990_small.csv
+  metric: RMSE
+  target: iClass
+- dataset_name: forestfires.csv
+  metric: Tweedie Deviance
+  target: area
+- dataset_name: kdd_1998_small.csv
+  metric: Tweedie Deviance
+  target: TARGET_D
+- dataset_name: New_York_Mets_Ian_11.csv
+  metric: RMSE
+  target: Grade
+- dataset_name: New_York_Mets.csv
+  metric: RMSE
+  target: Grade
+- dataset_name: OnCampusArrests.csv
+  metric: Tweedie Deviance
+  target: LIQUOR12
+- dataset_name: rollingsales_brooklyn.csv
+  metric: Tweedie Deviance
+  target: SALE PRICE
+- dataset_name: spot-prices-linux.csv
+  metric: Gamma Deviance
+  target: SpotPrice
+- dataset_name: spot-prices.csv
+  metric: Gamma Deviance
+  target: SpotPrice
+- dataset_name: allegan_weather.csv
+  metric: MAD
+  target: PRCP
+- dataset_name: AmericanTime2010Edited.csv
+  metric: MAD
+  target: WAGE
+- dataset_name: census_1990_small.csv
+  metric: MAD
+  target: iClass
+- dataset_name: forestfires.csv
+  metric: MAD
+  target: area
+- dataset_name: kdd_1998_small.csv
+  metric: MAD
+  target: TARGET_D
+- dataset_name: New_York_Mets_Ian_11.csv
+  metric: MAD
+  target: Grade
+- dataset_name: New_York_Mets.csv
+  metric: MAD
+  target: Grade
+- dataset_name: OnCampusArrests.csv
+  metric: MAD
+  target: LIQUOR12
+- dataset_name: rollingsales_brooklyn.csv
+  metric: MAD
+  target: SALE PRICE
+- dataset_name: spot-prices-linux.csv
+  metric: MAD
+  target: SpotPrice
+- dataset_name: spot-prices.csv
+  metric: MAD
+  target: SpotPrice

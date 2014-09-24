@@ -1,0 +1,22 @@
+# weighted dataset example with 3-fold CV and holdout
+- dataset_name: Higgs-ML-challenge-Training-small.csv
+  metric: 'AMS@15%tsh'
+  target: Label
+  weights: {weight: Weight}
+  cv_method: RandomCV
+  reps: 3
+  holdout_pct: 10
+  validation_type: CV
+
+# recsys example with user partitioning
+- dataset_name: wine-ng-lasso.csv
+  metric: RMSE
+  target: rating
+  recommender: True
+  recommender_user_id: user
+  recommender_item_id: wine
+  cv_method: GroupCV
+  partition_key_cols: ['user']
+  validation_pct: 20
+  holdout_pct: 20
+  validation_type: TVH

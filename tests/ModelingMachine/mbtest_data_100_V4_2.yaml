@@ -1,0 +1,75 @@
+- dataset_name: clean-bidder-data.csv
+  metric: LogLoss
+  target: click
+- dataset_name: college.csv
+  metric: RMSE
+  target: Grad_Rate
+- dataset_name: CollegeSportsExpenses.csv
+  metric: RMSE
+  target: HDCOACH_SALARY_MEN
+- dataset_name: colon-cancer.csv
+  metric: LogLoss
+  target: IsCancer
+- dataset_name: covtype_small.csv
+  metric: LogLoss
+  target: Spruce
+- dataset_name: credit-train-full.csv
+  metric: LogLoss
+  target: SeriousDlqin2yrs
+- dataset_name: credit-train-small.csv
+  metric: LogLoss
+  target: SeriousDlqin2yrs
+- dataset_name: crime-friendly.csv
+  metric: RMSE
+  target: ViolentCrimesPerPop
+- dataset_name: diagnostic_bc.csv
+  metric: LogLoss
+  target: Malignant
+- dataset_name: educational_expenses.csv
+  metric: RMSE
+  target: Salaries
+- dataset_name: el-nino-friendly-30000.csv
+  metric: RMSE
+  target: s_s_ temp_
+- dataset_name: el-nino-friendly.csv
+  metric: RMSE
+  target: s_s_ temp_
+- dataset_name: fastiron-train-sample.csv
+  metric: Gamma Deviance
+  target: SalePrice
+- dataset_name: Foods.csv
+  metric: RMSE
+  target: calories
+- dataset_name: forestfires.csv
+  metric: MAD
+  target: area
+- dataset_name: French_DAMAGE_sev.csv
+  metric: Gamma Deviance
+  target: cout
+- dataset_name: French_THEFT_sev.csv
+  metric: Gamma Deviance
+  target: cout
+- dataset_name: French_TP_sev.csv
+  metric: Gamma Deviance
+  target: cout
+- dataset_name: French_WINDSCREEN_sev.csv
+  metric: Gamma Deviance
+  target: cout
+- dataset_name: FrenchMotor1_sev.csv
+  metric: Gamma Deviance
+  target: coutsin
+- dataset_name: Gamblers.csv
+  metric: LogLoss
+  target: YES_ALCOHOL
+- dataset_name: german_credit-friendly.csv
+  metric: LogLoss
+  target: Target
+- dataset_name: grant_training.csv
+  metric: LogLoss
+  target: Grant_Status
+- dataset_name: HealthExpendIP_sev.csv
+  metric: Gamma Deviance
+  target: EXPENDIP
+- dataset_name: HealthExpendIP_sev2.csv
+  metric: Gamma Deviance
+  target: EXPENDIP

@@ -1,0 +1,33 @@
+{
+    "datasets": [
+        {
+            "filename" : "tests/testdata/kickcars-sample-200.csv",
+            "target" : "IsBadBuy"
+        },
+        {
+            "filename" : "tests/testdata/kickcars.rawdata.csv"
+        },
+        {
+            "filename" : "tests/testdata/fastiron-sample-400.csv"
+        },
+        {
+            "filename" : "tests/testdata/credit-test-NA-200.csv"
+        },
+        {
+            "filename" : "tests/testdata/nfl_stats_200.csv"
+        },
+        {
+            "filename" : "tests/testdata/amazon-sample-9999.csv"
+        },
+        {
+            "filename" : "tests/testdata/amazon_fr_text-only-100.csv"
+        },
+        {
+            "filename" : "tests/testdata/allstate-nonzero.csv"
+        },
+        {
+            "url" : "https://s3.amazonaws.com/datarobot_test/credit-sample-200.csv",
+            "target" : "SeriousDlqin2yrs"
+        }
+    ]
+}

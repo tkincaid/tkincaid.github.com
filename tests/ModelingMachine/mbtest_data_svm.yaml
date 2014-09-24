@@ -1,0 +1,210 @@
+- dataset_name: add10.csv
+  metric: RMSE
+  target: y
+- dataset_name: amazon_de_reviews_small.csv
+  metric: RMSE
+  target: rating
+- dataset_name: amazon_fr_reviews_small.csv
+  metric: RMSE
+  target: rating
+- dataset_name: amazon_small.csv
+  metric: LogLoss
+  target: ACTION
+- dataset_name: AmericanTime2010Edited.csv
+  metric: Tweedie Deviance
+  target: WAGE
+- dataset_name: AutoBI.csv
+  metric: Gamma Deviance
+  target: LOSS
+- dataset_name: AutoClaims.csv
+  metric: Gamma Deviance
+  target: PAID
+- dataset_name: baseY.csv
+  metric: Gamma Deviance
+  target: cout
+- dataset_name: bio_grid_small.csv
+  metric: LogLoss
+  target: Throughput
+- dataset_name: bio_response_combined.csv
+  metric: LogLoss
+  target: Activity
+- dataset_name: BostonPublicRaises.csv
+  metric: RMSE
+  target: RAISE
+- dataset_name: breast-cancer-wisconsin.csv
+  metric: LogLoss
+  target: Class
+- dataset_name: census_1990_small.csv
+  metric: RMSE
+  target: iClass
+- dataset_name: census_2012h_small.csv
+  metric: Poisson Deviance
+  target: VEHICLES
+- dataset_name: census_2012p_small.csv
+  metric: Gamma Deviance
+  target: WEIGHT
+- dataset_name: chargeback_small_clean.csv
+  metric: LogLoss
+  target: chargeback
+- dataset_name: clean-bidder-data.csv
+  metric: LogLoss
+  target: click
+- dataset_name: college.csv
+  metric: RMSE
+  target: Grad_Rate
+- dataset_name: CollegeSportsExpenses.csv
+  metric: RMSE
+  target: HDCOACH_SALARY_MEN
+- dataset_name: colon-cancer.csv
+  metric: LogLoss
+  target: IsCancer
+- dataset_name: covtype_small.csv
+  metric: LogLoss
+  target: Spruce
+- dataset_name: credit-train-small.csv
+  metric: LogLoss
+  target: SeriousDlqin2yrs
+- dataset_name: crime-friendly.csv
+  metric: RMSE
+  target: ViolentCrimesPerPop
+- dataset_name: diagnostic_bc.csv
+  metric: LogLoss
+  target: Malignant
+- dataset_name: educational_expenses.csv
+  metric: RMSE
+  target: Salaries
+- dataset_name: fastiron-train-sample.csv
+  metric: Gamma Deviance
+  target: SalePrice
+- dataset_name: Foods.csv
+  metric: RMSE
+  target: calories
+- dataset_name: forestfires.csv
+  metric: Tweedie Deviance
+  target: area
+- dataset_name: French_DAMAGE_sev.csv
+  metric: Gamma Deviance
+  target: cout
+- dataset_name: French_THEFT_sev.csv
+  metric: Gamma Deviance
+  target: cout
+- dataset_name: French_TP_sev.csv
+  metric: Gamma Deviance
+  target: cout
+- dataset_name: French_WINDSCREEN_sev.csv
+  metric: Gamma Deviance
+  target: cout
+- dataset_name: FrenchMotor1_sev.csv
+  metric: Gamma Deviance
+  target: coutsin
+- dataset_name: Gamblers.csv
+  metric: AUC
+  target: YES_ALCOHOL
+- dataset_name: german_credit-friendly.csv
+  metric: LogLoss
+  target: Target
+- dataset_name: grant_training.csv
+  metric: LogLoss
+  target: Grant_Status
+- dataset_name: HealthExpendIP_sev.csv
+  metric: Gamma Deviance
+  target: EXPENDIP
+- dataset_name: HealthExpendIP_sev2.csv
+  metric: Gamma Deviance
+  target: EXPENDIP
+- dataset_name: HealthExpendOP_sev.csv
+  metric: Gamma Deviance
+  target: EXPENDOP
+- dataset_name: HealthExpendOP_sev2.csv
+  metric: Gamma Deviance
+  target: EXPENDOP
+- dataset_name: Heller_Motor_sev.csv
+  metric: Gamma Deviance
+  target: claimcst0
+- dataset_name: Heller_Motor_sev2.csv
+  metric: Gamma Deviance
+  target: claimcst0
+- dataset_name: influencers_full.csv
+  metric: LogLoss
+  target: Choice
+- dataset_name: islr_stock_market_class.csv
+  metric: LogLoss
+  target: Direction
+- dataset_name: islr_stock_market_reg.csv
+  metric: RMSE
+  target: Today
+- dataset_name: kdd_1998_small.csv
+  metric: Tweedie Deviance
+  target: TARGET_D
+- dataset_name: madelon_combined.csv
+  metric: LogLoss
+  target: y
+- dataset_name: mini_boone_small.csv
+  metric: LogLoss
+  target: electron
+- dataset_name: MLB2008.csv
+  metric: Gamma Deviance
+  target: SALARY
+- dataset_name: msd_small.csv
+  metric: RMSE
+  target: Year
+- dataset_name: NCAAB2009.csv
+  metric: RMSE
+  target: score_delta
+- dataset_name: New_York_Mets_Ian_11.csv
+  metric: RMSE
+  target: Grade
+- dataset_name: New_York_Mets.csv
+  metric: RMSE
+  target: Grade
+- dataset_name: nfl_stats_cls.csv
+  metric: LogLoss
+  target: OffGreaterThanDef
+- dataset_name: nfl_stats_reg.csv
+  metric: RMSE
+  target: OffMinusDef
+- dataset_name: Omnibus_Oct_2013_Pictorial_csv.csv
+  metric: RMSE
+  target: age
+- dataset_name: photo_quality_small.csv
+  metric: LogLoss
+  target: good
+- dataset_name: PregnancyOutcomes.csv
+  metric: RMSE
+  target: BirthWeight
+- dataset_name: pumadyn.csv
+  metric: RMSE
+  target: thetadd6
+- dataset_name: r_recommend_small.csv
+  metric: LogLoss
+  target: Installed
+- dataset_name: radon-activity.csv
+  metric: RMSE
+  target: activity
+- dataset_name: sarcos-robot-10000.csv
+  metric: RMSE
+  target: Target
+- dataset_name: sat_act_gpa.csv
+  metric: RMSE
+  target: GPA
+- dataset_name: secom.csv
+  metric: LogLoss
+  target: Target
+- dataset_name: spot-prices-linux.csv
+  metric: Gamma Deviance
+  target: SpotPrice
+- dataset_name: spot-prices.csv
+  metric: Gamma Deviance
+  target: SpotPrice
+- dataset_name: TexasClosedClaims.csv
+  metric: Gamma Deviance
+  target: total_settlement
+- dataset_name: weather_small.csv
+  metric: RMSE
+  target: TomorrowMaxTemp
+- dataset_name: wells.csv
+  metric: LogLoss
+  target: switch
+- dataset_name: world_bank_edu.csv
+  metric: Gamma Deviance
+  target: Unemployment

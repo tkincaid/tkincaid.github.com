@@ -1,0 +1,75 @@
+- dataset_name: 2006_2010_Draft_Tools_for_is50p.csv
+  metric: LogLoss
+  target: is50p
+- dataset_name: 250p_PA_HS_3_years_since_debut_predict_70p.csv
+  metric: LogLoss
+  target: is_70p
+- dataset_name: 250p_PA_HS_Age_23_predict_next_2.csv
+  metric: RMSE
+  target: Next 2 years Grade
+- dataset_name: 300p_PA_All_Players_All_Info.csv
+  metric: RMSE
+  target: 6 year grade Proj
+- dataset_name: All_Players_All_Years_wconf_b_t_ht_wt_actpos_scouting_predict_isML.csv
+  metric: LogLoss
+  target: isML
+- dataset_name: All_Players_All_Years_wconf_b_t_ht_wt_pos_predict_role.csv
+  metric: RMSE
+  target: Grade 2014
+- dataset_name: amis.csv
+  metric: Gamma Deviance
+  target: speed
+- dataset_name: azpro.csv
+  metric: Gamma Deviance
+  target: los
+- dataset_name: Benefits.csv
+  metric: LogLoss
+  target: ui
+- dataset_name: BudgetFood.csv
+  metric: RMSE
+  target: wfood
+- dataset_name: dave-drTestSet.csv
+  metric: AUC
+  target: resp
+- dataset_name: diamonds.csv
+  metric: RMSE
+  target: price
+- dataset_name: DoctorContacts.csv
+  metric: RMSE
+  target: mdu
+- dataset_name: emr.csv
+  metric: Poisson Deviance
+  target: emr
+- dataset_name: FIXED_3_year_stats_for_Juniors_150p_PA_predict_role.csv
+  metric: RMSE
+  target: Grade 2014
+- dataset_name: forrest-output.csv
+  metric: LogLoss
+  target: front
+- dataset_name: forrest-wine-lasso-selected-vars-additional-columns2-wine-userID.csv
+  metric: RMSE
+  target: rating
+- dataset_name: hosp.csv
+  metric: Poisson Deviance
+  target: hosp
+- dataset_name: josh-datarob1.csv
+  metric: LogLoss
+  target: GROUP_NBR
+- dataset_name: MedExp.csv
+  metric: RMSE
+  target: med
+- dataset_name: mfblong.csv
+  metric: Gamma Deviance
+  target: bwt
+- dataset_name: movies.csv
+  metric: RMSE
+  target: rating
+- dataset_name: ofnp.csv
+  metric: MAD
+  target: ofnp
+- dataset_name: ofp.csv
+  metric: RMSE
+  target: ofp
+- dataset_name: opnp.csv
+  metric: MAD
+  target: opnp

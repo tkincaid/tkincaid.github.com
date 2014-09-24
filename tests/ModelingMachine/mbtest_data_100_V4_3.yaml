@@ -1,0 +1,75 @@
+- dataset_name: HealthExpendOP_sev.csv
+  metric: Gamma Deviance
+  target: EXPENDOP
+- dataset_name: HealthExpendOP_sev2.csv
+  metric: Gamma Deviance
+  target: EXPENDOP
+- dataset_name: Heller_Motor_sev.csv
+  metric: Gamma Deviance
+  target: claimcst0
+- dataset_name: Heller_Motor_sev2.csv
+  metric: Gamma Deviance
+  target: claimcst0
+- dataset_name: HIGGS-110000.csv
+  metric: LogLoss
+  target: Class
+- dataset_name: HIGGS-30000.csv
+  metric: LogLoss
+  target: Class
+- dataset_name: influencers_full.csv
+  metric: LogLoss
+  target: Choice
+- dataset_name: Iraq_incident_spending.csv
+  metric: RMSE
+  target: SIG_1
+- dataset_name: islr_stock_market_class.csv
+  metric: LogLoss
+  target: Direction
+- dataset_name: islr_stock_market_reg.csv
+  metric: RMSE
+  target: Today
+- dataset_name: kdd_1998_small.csv
+  metric: MAD
+  target: TARGET_D
+- dataset_name: kdd_2009_full.csv
+  metric: LogLoss
+  target: churn
+- dataset_name: kickcars_train_full.csv
+  metric: LogLoss
+  target: IsBadBuy
+- dataset_name: LoanStats3a-friendly.csv
+  metric: Poisson Deviance
+  target: delinq_2yrs
+- dataset_name: madelon_combined.csv
+  metric: LogLoss
+  target: y
+- dataset_name: MAGIC-Gamma-Telescope.csv
+  metric: LogLoss
+  target: class
+- dataset_name: mini_boone_full.csv
+  metric: LogLoss
+  target: electron
+- dataset_name: mini_boone_small.csv
+  metric: LogLoss
+  target: electron
+- dataset_name: MLB2008.csv
+  metric: Gamma Deviance
+  target: SALARY
+- dataset_name: mortDefault2009.csv
+  metric: LogLoss
+  target: default
+- dataset_name: msd_small.csv
+  metric: RMSE
+  target: Year
+- dataset_name: NCAAB2009.csv
+  metric: RMSE
+  target: score_delta
+- dataset_name: New_York_Mets_Ian_11.csv
+  metric: MAD
+  target: Grade
+- dataset_name: New_York_Mets.csv
+  metric: MAD
+  target: Grade
+- dataset_name: nfl_stats_cls.csv
+  metric: LogLoss
+  target: OffGreaterThanDef

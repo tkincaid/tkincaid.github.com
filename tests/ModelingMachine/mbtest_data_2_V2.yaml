@@ -1,0 +1,6 @@
+- dataset_name: fastiron-train-sample-small.csv
+  metric: Gamma Deviance
+  target: SalePrice
+- dataset_name: bank_marketing_small.csv
+  metric: LogLoss
+  target: y

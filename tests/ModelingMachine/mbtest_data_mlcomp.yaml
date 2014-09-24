@@ -1,0 +1,24 @@
+- dataset_name: mlcomp1220_User-Event-Features_train.csv
+  metric: MAD
+  target: y
+- dataset_name: mlcomp1343_adult_ben_train.csv
+  metric: LogLoss
+  target: y
+- dataset_name: mlcomp1452_AlphaProteins_train.csv
+  metric: Gamma Deviance
+  target: y
+- dataset_name: mlcomp551_etf300-fractal-f20-126_train.csv
+  metric: RMSE
+  target: y
+- dataset_name: mlcomp680_ccs-challenge-dataset_train.csv
+  metric: LogLoss
+  target: y
+- dataset_name: mlcomp1617_repere_train.csv
+  metric: LogLoss
+  target: y
+- dataset_name: mlcomp1438_derivation-stats-balanced2_train.csv
+  metric: LogLoss
+  target: y
+- dataset_name: mlcomp701_Sales_7756-2._train.csv
+  metric: RMSE
+  target: y

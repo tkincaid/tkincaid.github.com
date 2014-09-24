@@ -1,0 +1,817 @@
+{
+    "_id" : "53939fe5637aba18775a2d48",
+    "best_parameters" : {
+
+    },
+    "blend" : 0,
+    "blueprint" : {
+        "1" : [
+            [
+                "NUM"
+            ],
+            [
+                "NI"
+            ],
+            "T"
+        ],
+        "2" : [
+            [
+                "CAT"
+            ],
+            [
+                "DM2 cm=32;dc=1"
+            ],
+            "T"
+        ],
+        "3" : [
+            [
+                "1",
+                "2"
+            ],
+            [
+                "GLMB"
+            ],
+            "P"
+        ]
+    },
+    "blueprint_id" : "08f15f00ed64dfd34fbae67b442228e5",
+    "bp" : 1,
+    "dataset_id" : "53939fe0637aba185b5a2d4c",
+    "dataset_name" : "Informative Features",
+    "ec2" : {
+        "reps=1" : {
+            "CPU_count" : 4,
+            "availability_zone" : "None",
+            "instance_size" : "None",
+            "instance_type" : "local",
+            "on_demand_price" : 0,
+            "spot_price" : 0,
+            "workers" : 2
+        }
+    },
+    "extras" : {
+        "(0, -1)" : {
+            "coefficients" : [
+                [
+                    "Trim-SXT",
+                    134.983304
+                ],
+                [
+                    "Make-PONTIAC",
+                    105.28415
+                ],
+                [
+                    "Trim-nan",
+                    96.927444
+                ],
+                [
+                    "Make-DODGE",
+                    -87.996988
+                ],
+                [
+                    "Make-small_count",
+                    -83.537358
+                ],
+                [
+                    "Size-small_count",
+                    82.181404
+                ],
+                [
+                    "Size-MEDIUM SUV",
+                    79.279745
+                ],
+                [
+                    "Size-VAN",
+                    78.595141
+                ],
+                [
+                    "Size-LARGE SUV",
+                    74.591979
+                ],
+                [
+                    "Trim-SE",
+                    71.472231
+                ],
+                [
+                    "Trim-small_count",
+                    70.983705
+                ],
+                [
+                    "Size-SPORTS",
+                    70.951495
+                ],
+                [
+                    "Size-COMPACT",
+                    63.363582
+                ],
+                [
+                    "Transmission-AUTO",
+                    62.707094
+                ],
+                [
+                    "Make-CHEVROLET",
+                    59.239112
+                ],
+                [
+                    "Color-RED",
+                    59.172384
+                ],
+                [
+                    "Color-GREY",
+                    58.080639
+                ],
+                [
+                    "Trim-Bas",
+                    53.445766
+                ],
+                [
+                    "Color-BLUE",
+                    51.600583
+                ],
+                [
+                    "SubModel-4D SEDAN",
+                    -50.955694
+                ],
+                [
+                    "Size-SMALL SUV",
+                    50.452447
+                ],
+                [
+                    "Color-WHITE",
+                    47.604502
+                ],
+                [
+                    "TopThreeAmericanName-GM",
+                    -35.688457
+                ],
+                [
+                    "Size-LARGE",
+                    35.626448
+                ],
+                [
+                    "Trim-GLS",
+                    33.396065
+                ],
+                [
+                    "Size-MEDIUM",
+                    31.56536
+                ],
+                [
+                    "Nationality-TOP LINE ASIAN",
+                    29.384502
+                ],
+                [
+                    "VehYear",
+                    27.682265
+                ],
+                [
+                    "Color-small_count",
+                    -24.899538
+                ],
+                [
+                    "TopThreeAmericanName-CHRYSLER",
+                    24.474914
+                ],
+                [
+                    "VehicleAge",
+                    24.263833
+                ],
+                [
+                    "Color-BLACK",
+                    23.299541
+                ],
+                [
+                    "SubModel-small_count",
+                    -20.141568
+                ],
+                [
+                    "Nationality-AMERICAN",
+                    -19.944953
+                ],
+                [
+                    "WheelTypeID-mi",
+                    19.20501
+                ],
+                [
+                    "WheelType-nan",
+                    19.20501
+                ],
+                [
+                    "WheelType-Alloy",
+                    -18.70216
+                ],
+                [
+                    "Make-CHRYSLER",
+                    -18.005103
+                ],
+                [
+                    "PRIMEUNIT-nan",
+                    14.991278
+                ],
+                [
+                    "AUCGUART-nan",
+                    14.991278
+                ],
+                [
+                    "WheelType-Covers",
+                    -10.698271
+                ],
+                [
+                    "Nationality-OTHER ASIAN",
+                    -9.585316
+                ],
+                [
+                    "Color-SILVER",
+                    9.36778
+                ],
+                [
+                    "WheelTypeID",
+                    9.255269
+                ],
+                [
+                    "Make-FORD",
+                    -8.73141
+                ],
+                [
+                    "TopThreeAmericanName-FORD",
+                    -8.73141
+                ],
+                [
+                    "Color-GOLD",
+                    -6.574387
+                ],
+                [
+                    "Trim-LS",
+                    -5.722017
+                ],
+                [
+                    "VNST-FL",
+                    0.218505
+                ],
+                [
+                    "Make-SATURN",
+                    0.205764
+                ],
+                [
+                    "MMRCurrentAuctionAveragePrice",
+                    0.084362
+                ],
+                [
+                    "MMRCurrentAuctionCleanPrice",
+                    -0.078396
+                ],
+                [
+                    "PurchDate",
+                    -0.075754
+                ],
+                [
+                    "MMRAcquisitonRetailCleanPrice",
+                    -0.045115
+                ],
+                [
+                    "MMRAcquisitionRetailAveragePrice",
+                    0.043508
+                ],
+                [
+                    "MMRAcquisitionAuctionCleanPrice",
+                    0.035905
+                ],
+                [
+                    "WarrantyCost",
+                    0.020414
+                ],
+                [
+                    "MMRAcquisitionAuctionAveragePrice",
+                    -0.01903
+                ],
+                [
+                    "VehBCost",
+                    -0.0135
+                ],
+                [
+                    "MMRCurrentRetailAveragePrice",
+                    -0.009587
+                ],
+                [
+                    "MMRCurrentRetailCleanPrice",
+                    0.002388
+                ],
+                [
+                    "VehOdo",
+                    -0.001153
+                ],
+                [
+                    "BYRNO",
+                    -0.000193
+                ],
+                [
+                    "VNZIP1",
+                    -0.000104
+                ],
+                [
+                    "MMRCurrentRetailCleanPrice-mi",
+                    0
+                ],
+                [
+                    "MMRCurrentRetailAveragePrice-mi",
+                    0
+                ],
+                [
+                    "MMRCurrentAuctionCleanPrice-mi",
+                    0
+                ],
+                [
+                    "MMRCurrentAuctionAveragePrice-mi",
+                    0
+                ]
+            ]
+        }
+    },
+    "features" : [
+        "Missing Values Imputed",
+        "One-Hot Encoding",
+        "Generalized Linear Model (Bernoulli Distribution)"
+    ],
+    "finish_time" : {
+        "reps=1" : 1402183657.021287
+    },
+    "grid_scores" : {
+
+    },
+    "holdout" : {
+        "AUC" : 0.52244,
+        "Gini" : 0.01247,
+        "Gini Norm" : 0.03846,
+        "Ians Metric" : -0.0074,
+        "LogLoss" : 3.11203,
+        "RMSE" : 0.6804,
+        "Rate@Top10%" : 0.38462,
+        "Rate@Top5%" : 0.38462,
+        "metrics" : [
+            "LogLoss",
+            "AUC",
+            "Ians Metric",
+            "Gini",
+            "Gini Norm",
+            "Rate@Top10%",
+            "Rate@Top5%",
+            "RMSE"
+        ]
+    },
+    "holdout_scoring_time" : 146.832,
+    "holdout_size" : 37,
+    "icons" : [
+        0
+    ],
+    "insights" : "NA",
+    "lid" : "53939fe5637aba18775a2d48",
+    "lift" : {
+        "(0,-1)" : {
+            "pred" : [
+                0.002,
+                0.002,
+                0.002,
+                0.001,
+                0.002,
+                0.002,
+                0.001,
+                0.002,
+                0.002,
+                0.001,
+                0.002,
+                0.008168803397358964,
+                1.1114858385760449,
+                0.9943939210289094,
+                1.9940712216437835,
+                1.998,
+                0.999,
+                1.998,
+                1.998,
+                1.998
+            ],
+            "rows" : [
+                2,
+                2,
+                2,
+                1,
+                2,
+                2,
+                1,
+                2,
+                2,
+                1,
+                2,
+                2,
+                2,
+                1,
+                2,
+                2,
+                1,
+                2,
+                2,
+                2
+            ],
+            "act" : [
+                0,
+                1,
+                0,
+                0,
+                2,
+                2,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                1
+            ]
+        }
+    },
+    "max_folds" : 0,
+    "max_reps" : 1,
+    "metablueprint" : [
+        "Metablueprint",
+        "8.6.7b"
+    ],
+    "model_type" : "Generalized Linear Model (Bernoulli Distribution)",
+    "part_size" : [
+        [
+            "1",
+            123,
+            35
+        ]
+    ],
+    "partition_stats" : {
+        "(0, -1)" : {
+            "train_size" : 123,
+            "test_size" : 35,
+            "time_real" : "0.07858"
+        }
+    },
+    "parts" : [
+        [
+            "1",
+            68
+        ]
+    ],
+    "parts_label" : [
+        "partition",
+        "NonZeroCoefficients"
+    ],
+    "pid" : "53939fdd637aba04f09d0d08",
+    "qid" : 1,
+    "reference_model" : true,
+    "resource_summary" : {
+        "reps=1" : {
+            "bp_cost" : 0.0003,
+            "bp_time" : 2.6632370948791504,
+            "cached" : "true",
+            "cost" : 0,
+            "cpu_usage" : 0.8690474991313661,
+            "max_noncached_ram" : 0,
+            "max_ram" : 0,
+            "noncached_cost" : 0,
+            "noncached_cpu_usage" : 0.8406359428994226,
+            "rate" : 0.013666666666666666,
+            "total_clock_time" : 0.2991781234741211,
+            "total_cpu_time" : 0.26,
+            "total_noncached_clock_time" : 0.28549814224243164,
+            "total_noncached_cpu_time" : 0.24
+        }
+    },
+    "roc" : {
+        "(0,-1)" : [
+            [
+                0.04,
+                0,
+                0.999006340533257
+            ],
+            [
+                0.08,
+                0,
+                0.9990063229318732
+            ],
+            [
+                0.08,
+                0.1,
+                0.999005414179831
+            ],
+            [
+                0.08,
+                0.2,
+                0.9990011454581441
+            ],
+            [
+                0.08,
+                0.3,
+                0.9990006026209141
+            ],
+            [
+                0.12,
+                0.3,
+                0.9989975494018666
+            ],
+            [
+                0.12,
+                0.4,
+                0.9989969948541932
+            ],
+            [
+                0.16,
+                0.4,
+                0.9989932867844104
+            ],
+            [
+                0.2,
+                0.4,
+                0.9989930979369738
+            ],
+            [
+                0.24,
+                0.4,
+                0.9989901254891436
+            ],
+            [
+                0.28,
+                0.4,
+                0.9950673486814734
+            ],
+            [
+                0.32,
+                0.4,
+                0.9944030084592931
+            ],
+            [
+                0.36,
+                0.4,
+                0.8852404184023909
+            ],
+            [
+                0.4,
+                0.4,
+                0.22624054100854524
+            ],
+            [
+                0.44,
+                0.4,
+                0.007168737385529643
+            ],
+            [
+                0.48,
+                0.4,
+                0.001000009094373114
+            ],
+            [
+                0.52,
+                0.4,
+                0.001000008746141694
+            ],
+            [
+                0.52,
+                0.5,
+                0.0010000076313519731
+            ],
+            [
+                0.56,
+                0.5,
+                0.001000006677785883
+            ],
+            [
+                0.6,
+                0.5,
+                0.0010000061302501023
+            ],
+            [
+                0.6,
+                0.6,
+                0.0010000056578057905
+            ],
+            [
+                0.64,
+                0.6,
+                0.0010000017505701626
+            ],
+            [
+                0.68,
+                0.6,
+                0.0010000001620385157
+            ],
+            [
+                0.68,
+                0.7,
+                0.0009999995186981627
+            ],
+            [
+                0.72,
+                0.7,
+                0.000999999456538507
+            ],
+            [
+                0.76,
+                0.7,
+                0.0009999994168025063
+            ],
+            [
+                0.8,
+                0.7,
+                0.0009999977236705667
+            ],
+            [
+                0.84,
+                0.7,
+                0.000999995535673896
+            ],
+            [
+                0.88,
+                0.7,
+                0.0009999935468607056
+            ],
+            [
+                0.92,
+                0.7,
+                0.0009999930914102943
+            ],
+            [
+                0.92,
+                0.8,
+                0.000999992884914432
+            ],
+            [
+                0.96,
+                0.8,
+                0.0009999928753685518
+            ],
+            [
+                1,
+                0.8,
+                0.0009999928245552883
+            ],
+            [
+                1,
+                0.9,
+                0.000999991083503973
+            ],
+            [
+                1,
+                1,
+                0.0009999903859913262
+            ],
+            [
+                1,
+                1,
+                0
+            ]
+        ]
+    },
+    "s" : 0,
+    "samplepct" : 64,
+    "task_cnt" : 3,
+    "task_info" : {
+        "reps=1" : [
+            [
+                {
+                    "fit max RAM" : 0,
+                    "fit CPU pct" : 0,
+                    "fit CPU time" : 0.020000000000000018,
+                    "ytrans" : null,
+                    "fit clock time" : 0.013679981231689453,
+                    "fit avg RAM" : 0,
+                    "cached" : true,
+                    "transform max RAM" : 0,
+                    "transform avg RAM" : 0,
+                    "xtrans" : null,
+                    "transform clock time" : 0.04288601875305176,
+                    "version" : "0.1",
+                    "fit total RAM" : 12287713280,
+                    "task_name" : "NI",
+                    "transform CPU time" : 0.040000000000000036,
+                    "transform total RAM" : 12287713280,
+                    "transform CPU pct" : 0,
+                    "arguments" : null
+                }
+            ],
+            [
+                {
+                    "fit max RAM" : 0,
+                    "fit CPU pct" : 0,
+                    "fit CPU time" : 0.07000000000000006,
+                    "ytrans" : null,
+                    "fit clock time" : 0.09126496315002441,
+                    "fit avg RAM" : 0,
+                    "cached" : false,
+                    "transform max RAM" : 0,
+                    "fit total RAM" : 12287713280,
+                    "transform avg RAM" : 0,
+                    "xtrans" : null,
+                    "transform clock time" : 0.044120073318481445,
+                    "version" : "0.2",
+                    "arguments" : "cm=32;dc=1",
+                    "task_name" : "DM2",
+                    "transform CPU time" : 0.029999999999999805,
+                    "transform total RAM" : 12287713280,
+                    "transform CPU pct" : 0
+                }
+            ],
+            [
+                {
+                    "fit max RAM" : 0,
+                    "fit CPU pct" : 0,
+                    "fit CPU time" : 0.08000000000000007,
+                    "predict CPU pct" : 0,
+                    "fit clock time" : 0.08730912208557129,
+                    "task_name" : "GLMB",
+                    "fit avg RAM" : 0,
+                    "cached" : false,
+                    "ytrans" : null,
+                    "fit total RAM" : 12287713280,
+                    "xtrans" : null,
+                    "predict total RAM" : 12287713280,
+                    "predict clock time" : 0.019917964935302734,
+                    "version" : "0.1",
+                    "predict avg RAM" : 0,
+                    "arguments" : null,
+                    "predict max RAM" : 0,
+                    "predict CPU time" : 0.020000000000000018
+                }
+            ]
+        ]
+    },
+    "task_parameters" : "{\"NI\": {\"threshold\": \"50\", \"fullset\": \"True\"}, \"DM2 cm=32;dc=1\": {\"card_max\": \"32\", \"drop_cols\": \"True\", \"small_count\": \"5\"}, \"1\": {\"threshold\": \"50\", \"fullset\": \"True\"}, \"3\": {\"Stepwise: backwards\": \"None\", \"GridSearch: stratified\": \"True\", \"GridSearch: algorithm\": \"Tom\", \"GridSearch: max_iterations\": \"15\", \"GridSearch: test_fraction\": \"None\", \"p\": \"1.5\", \"GridSearch: CV_folds\": \"5\", \"Stepwise: test_fraction\": \"None\", \"PostProcessing: left_censoring\": \"None\", \"GridSearch: stacked_coeffs\": \"False\", \"PostProcessing: right_censoring\": \"None\", \"PostProcessing: stack\": \"None\", \"GridSearch: metric\": \"None\", \"distribution\": \"Bernoulli\", \"tweedie_log\": \"True\", \"GridSearch: step\": \"10\", \"GridSearch: random_state\": \"1234\", \"PostProcessing: stack_folds\": \"None\"}, \"2\": {\"card_max\": \"32\", \"drop_cols\": \"True\", \"small_count\": \"5\"}, \"GLMB\": {\"Stepwise: backwards\": \"None\", \"GridSearch: stratified\": \"True\", \"GridSearch: algorithm\": \"Tom\", \"GridSearch: max_iterations\": \"15\", \"GridSearch: test_fraction\": \"None\", \"p\": \"1.5\", \"GridSearch: CV_folds\": \"5\", \"Stepwise: test_fraction\": \"None\", \"PostProcessing: left_censoring\": \"None\", \"GridSearch: stacked_coeffs\": \"False\", \"PostProcessing: right_censoring\": \"None\", \"PostProcessing: stack\": \"None\", \"GridSearch: metric\": \"None\", \"distribution\": \"Bernoulli\", \"tweedie_log\": \"True\", \"GridSearch: step\": \"10\", \"GridSearch: random_state\": \"1234\", \"PostProcessing: stack_folds\": \"None\"}}",
+    "task_version" : {
+        "DM2" : "0.2",
+        "GLMB" : "0.1",
+        "NI" : "0.1"
+    },
+    "test" : {
+        "AUC" : [
+            0.52
+        ],
+        "Gini" : [
+            0.00571
+        ],
+        "Gini Norm" : [
+            0.016
+        ],
+        "Ians Metric" : [
+            0.03556
+        ],
+        "LogLoss" : [
+            2.73818
+        ],
+        "RMSE" : [
+            0.65005
+        ],
+        "Rate@Top10%" : [
+            0.4
+        ],
+        "Rate@Top5%" : [
+            0.4
+        ],
+        "labels" : [
+            "(0,-1)"
+        ],
+        "metrics" : [
+            "LogLoss",
+            "AUC",
+            "Ians Metric",
+            "Gini",
+            "Gini Norm",
+            "Rate@Top10%",
+            "Rate@Top5%",
+            "RMSE"
+        ]
+    },
+    "time" : {
+        "finish_time" : {
+            "reps=1" : 1402183657.021289
+        },
+        "start_time" : {
+            "reps=1" : 1402183654.358052
+        },
+        "total_time" : {
+            "reps=1" : 2.6632370948791504
+        }
+    },
+    "time_real" : [
+        [
+            "1",
+            "0.07858"
+        ]
+    ],
+    "total_size" : 158,
+    "training_dataset_id" : "53939fe0637aba185b5a2d4c",
+    "training_dataset_name" : "default",
+    "uid" : "53939fb06678ace9c263ade3",
+    "vertex_cnt" : 3,
+    "vertices" : {
+
+    }
+}

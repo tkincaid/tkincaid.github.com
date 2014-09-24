@@ -1,0 +1,6 @@
+- dataset_name: fastiron-train-sample-small.csv
+  metric: RMSLE
+  target: SalePrice
+- dataset_name: bank_marketing_small.csv
+  metric: LogLoss
+  target: y

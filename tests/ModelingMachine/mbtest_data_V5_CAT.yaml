@@ -1,0 +1,368 @@
+- dataset_name: 2006_2010_Draft_Tools_for_is50p.csv
+  metric: LogLoss
+  target: is50p
+  worker_size: ''
+- dataset_name: 300p_PA_All_Players_All_Info.csv
+  metric: MAD
+  target: 6 year grade Proj
+  worker_size: ''
+- dataset_name: accident.csv
+  metric: MAD
+  target: fatals
+  worker_size: '>30'
+- dataset_name: AirlineFlights2008-reduced-35000.csv
+  metric: RMSE
+  target: ArrDelay
+  worker_size: '>30'
+- dataset_name: AirlineFlights2008-reduced-70000.csv
+  metric: RMSE
+  target: ArrDelay
+  worker_size: '>30'
+- dataset_name: All_Players_All_Years_wconf_b_t_ht_wt_actpos_scouting_predict_isML.csv
+  metric: LogLoss
+  target: isML
+  worker_size: ''
+- dataset_name: All_Players_All_Years_wconf_b_t_ht_wt_pos_predict_role.csv
+  metric: MAD
+  target: Grade 2014
+  worker_size: ''
+- dataset_name: allstate-nonzero.csv
+  metric: Gamma Deviance
+  target: Claim_Amount
+  worker_size: '>30'
+- dataset_name: amazon_de_reviews_small.csv
+  metric: RMSE
+  target: rating
+  worker_size: ''
+- dataset_name: amazon_fr_reviews_small.csv
+  metric: RMSE
+  target: rating
+  worker_size: ''
+- dataset_name: amazon_full.csv
+  metric: LogLoss
+  target: ACTION
+  worker_size: '>30'
+- dataset_name: amazon_small.csv
+  metric: LogLoss
+  target: ACTION
+  worker_size: ''
+- dataset_name: AmericanTime2010Edited.csv
+  metric: MAD
+  target: WAGE
+  worker_size: ''
+- dataset_name: AutoClaims.csv
+  metric: Gamma Deviance
+  target: PAID
+  worker_size: ''
+- dataset_name: bank_marketing_full.csv
+  metric: LogLoss
+  target: y
+  worker_size: '>30'
+- dataset_name: baseY.csv
+  metric: Gamma Deviance
+  target: cout
+  worker_size: ''
+- dataset_name: Benefits.csv
+  metric: LogLoss
+  target: ui
+  worker_size: ''
+- dataset_name: bio_grid_small.csv
+  metric: LogLoss
+  target: Throughput
+  worker_size: ''
+- dataset_name: BostonPublicRaises.csv
+  metric: RMSE
+  target: RAISE
+  worker_size: ''
+- dataset_name: BudgetFood.csv
+  metric: RMSE
+  target: wfood
+  worker_size: ''
+- dataset_name: census_salary_full.csv
+  metric: LogLoss
+  target: Salary
+  worker_size: '>30'
+- dataset_name: chargeback_small_clean.csv
+  metric: LogLoss
+  target: chargeback
+  worker_size: ''
+- dataset_name: clean-bidder-data.csv
+  metric: LogLoss
+  target: click
+  worker_size: ''
+- dataset_name: college.csv
+  metric: RMSE
+  target: Grad.Rate
+  worker_size: ''
+- dataset_name: CollegeSportsExpenses.csv
+  metric: Gamma Deviance
+  target: HDCOACH_SALARY_MEN
+  worker_size: ''
+- dataset_name: dave-drTestSet.csv
+  metric: AUC
+  target: resp
+  worker_size: '>30'
+- dataset_name: diamonds.csv
+  metric: Gamma Deviance
+  target: price
+  worker_size: ''
+- dataset_name: DoctorContacts.csv
+  metric: Poisson Deviance
+  target: mdu
+  worker_size: ''
+- dataset_name: emr.csv
+  metric: Poisson Deviance
+  target: emr
+  worker_size: ''
+- dataset_name: fastiron-train-sample.csv
+  metric: Gamma Deviance
+  target: SalePrice
+  worker_size: ''
+- dataset_name: Foods.csv
+  metric: Gamma Deviance
+  target: calories
+  worker_size: ''
+- dataset_name: forestfires.csv
+  metric: MAD
+  target: area
+  worker_size: ''
+- dataset_name: forrest-wine-lasso-selected-vars-additional-columns2-wine-userID.csv
+  metric: RMSE
+  target: rating
+  worker_size: ''
+- dataset_name: French_DAMAGE_sev.csv
+  metric: Gamma Deviance
+  target: cout
+  worker_size: ''
+- dataset_name: French_THEFT_sev.csv
+  metric: Gamma Deviance
+  target: cout
+  worker_size: ''
+- dataset_name: French_TP_sev.csv
+  metric: Gamma Deviance
+  target: cout
+  worker_size: ''
+- dataset_name: French_WINDSCREEN_sev.csv
+  metric: Gamma Deviance
+  target: cout
+  worker_size: ''
+- dataset_name: FrenchMotor1_sev.csv
+  metric: Gamma Deviance
+  target: coutsin
+  worker_size: ''
+- dataset_name: german_credit-friendly.csv
+  metric: LogLoss
+  target: Target
+  worker_size: ''
+- dataset_name: grant_training.csv
+  metric: LogLoss
+  target: Grant.Status
+  worker_size: ''
+- dataset_name: HealthExpendIP_sev.csv
+  metric: Gamma Deviance
+  target: EXPENDIP
+  worker_size: ''
+- dataset_name: HealthExpendIP_sev2.csv
+  metric: Gamma Deviance
+  target: EXPENDIP
+  worker_size: ''
+- dataset_name: HealthExpendOP_sev.csv
+  metric: Gamma Deviance
+  target: EXPENDOP
+  worker_size: ''
+- dataset_name: HealthExpendOP_sev2.csv
+  metric: Gamma Deviance
+  target: EXPENDOP
+  worker_size: ''
+- dataset_name: Heller_Motor_sev.csv
+  metric: Gamma Deviance
+  target: claimcst0
+  worker_size: ''
+- dataset_name: Heller_Motor_sev2.csv
+  metric: Gamma Deviance
+  target: claimcst0
+  worker_size: ''
+- dataset_name: hosp.csv
+  metric: Poisson Deviance
+  target: hosp
+  worker_size: ''
+- dataset_name: Iraq_incident_spending.csv
+  metric: Gamma Deviance
+  target: SIG_1
+  worker_size: ''
+- dataset_name: item20.csv
+  metric: LogLoss
+  target: score
+  worker_size: ''
+- dataset_name: kdd_1998_small.csv
+  metric: MAD
+  target: TARGET_D
+  worker_size: ''
+- dataset_name: kdd_2009_full.csv
+  metric: LogLoss
+  target: churn
+  worker_size: '>30'
+- dataset_name: kickcars_train_full.csv
+  metric: LogLoss
+  target: IsBadBuy
+  worker_size: '>30'
+- dataset_name: LoanStats3a-friendly.csv
+  metric: Poisson Deviance
+  target: delinq_2yrs
+  worker_size: '>30'
+- dataset_name: MedExp.csv
+  metric: MAD
+  target: med
+  worker_size: ''
+- dataset_name: movies.csv
+  metric: RMSE
+  target: rating
+  worker_size: '>30'
+- dataset_name: NCAAB2009.csv
+  metric: RMSE
+  target: score_delta
+  worker_size: ''
+- dataset_name: New_York_Mets.csv
+  metric: MAD
+  target: Grade
+  worker_size: ''
+- dataset_name: nfl_stats_cls.csv
+  metric: LogLoss
+  target: OffGreaterThanDef
+  worker_size: ''
+- dataset_name: nfl_stats_reg.csv
+  metric: RMSE
+  target: OffMinusDef
+  worker_size: ''
+- dataset_name: ofnp.csv
+  metric: Poisson Deviance
+  target: ofnp
+  worker_size: ''
+- dataset_name: ofp.csv
+  metric: Poisson Deviance
+  target: ofp
+  worker_size: ''
+- dataset_name: Omnibus_Oct_2013_Pictorial_csv.csv
+  metric: RMSE
+  target: age
+  worker_size: ''
+- dataset_name: OnCampusArrests.csv
+  metric: MAD
+  target: LIQUOR12
+  worker_size: ''
+- dataset_name: opnp.csv
+  metric: Poisson Deviance
+  target: opnp
+  worker_size: ''
+- dataset_name: opp.csv
+  metric: Poisson Deviance
+  target: opp
+  worker_size: ''
+- dataset_name: photo_quality_full.csv
+  metric: LogLoss
+  target: good
+  worker_size: '>30'
+- dataset_name: photo_quality_small.csv
+  metric: LogLoss
+  target: good
+  worker_size: ''
+- dataset_name: PredictFix_train_comments.csv
+  metric: Poisson Deviance
+  target: num_comments
+  worker_size: '>30'
+- dataset_name: PregnancyOutcomes.csv
+  metric: RMSE
+  target: BirthWeight
+  worker_size: ''
+- dataset_name: PSID.csv
+  metric: MAD
+  target: earnings
+  worker_size: ''
+- dataset_name: r_recommend_full.csv
+  metric: LogLoss
+  target: Installed
+  worker_size: '>30'
+- dataset_name: r_recommend_small.csv
+  metric: LogLoss
+  target: Installed
+  worker_size: ''
+- dataset_name: radon-activity.csv
+  metric: Gamma Deviance
+  target: ' activity'
+  worker_size: ''
+- dataset_name: rollingsales_brooklyn.csv
+  metric: MAD
+  target: SALE PRICE
+  worker_size: ''
+- dataset_name: Schooling.csv
+  metric: Gamma Deviance
+  target: wage76
+  worker_size: ''
+- dataset_name: SLID.csv
+  metric: RMSE
+  target: wages
+  worker_size: ''
+- dataset_name: spot-prices-linux.csv
+  metric: MAD
+  target: SpotPrice
+  worker_size: ''
+- dataset_name: spot-prices.csv
+  metric: MAD
+  target: SpotPrice
+  worker_size: ''
+- dataset_name: TexasClosedClaims.csv
+  metric: Gamma Deviance
+  target: total_settlement
+  worker_size: ''
+- dataset_name: tmathssk.csv
+  metric: RMSE
+  target: tmathssk
+  worker_size: ''
+- dataset_name: Tools and Stats for college players.csv
+  metric: MAD
+  target: grade
+  worker_size: ''
+- dataset_name: train_ground_balls.csv
+  metric: LogLoss
+  target: hfx_gb
+  worker_size: '>30'
+- dataset_name: train_swing_and_miss.csv
+  metric: LogLoss
+  target: is_ms
+  worker_size: '>30'
+- dataset_name: trainingDataWithoutNegativeWeights.csv
+  metric: LogLoss
+  target: classification
+  worker_size: '>30'
+- dataset_name: treadssk.csv
+  metric: RMSE
+  target: treadssk
+  worker_size: ''
+- dataset_name: ufo_awesome.csv
+  metric: RMSE
+  target: reporting_delay
+  worker_size: '>30'
+- dataset_name: VietNamI.csv
+  metric: RMSE
+  target: lnhhexp
+  worker_size: ''
+- dataset_name: Wages.csv
+  metric: RMSE
+  target: lwage
+  worker_size: ''
+- dataset_name: weather_large.csv
+  metric: RMSE
+  target: TomorrowMaxTemp
+  worker_size: '>30'
+- dataset_name: weather_small.csv
+  metric: RMSE
+  target: TomorrowMaxTemp
+  worker_size: ''
+- dataset_name: Workinghours.csv
+  metric: MAD
+  target: hours
+  worker_size: ''
+- dataset_name: world_bank_edu.csv
+  metric: RMSE
+  target: Unemployment
+  worker_size: ''

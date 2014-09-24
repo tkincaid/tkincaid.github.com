@@ -1,0 +1,75 @@
+- dataset_name: NCAAB2009.csv
+  metric: RMSE
+  target: score_delta
+- dataset_name: New_York_Mets_Ian_11.csv
+  metric: MAD
+  target: Grade
+- dataset_name: New_York_Mets.csv
+  metric: MAD
+  target: Grade
+- dataset_name: nfl_stats_cls.csv
+  metric: LogLoss
+  target: OffGreaterThanDef
+- dataset_name: nfl_stats_reg.csv
+  metric: RMSE
+  target: OffMinusDef
+- dataset_name: ofnp.csv
+  metric: Poisson Deviance
+  target: ofnp
+- dataset_name: ofp.csv
+  metric: Poisson Deviance
+  target: ofp
+- dataset_name: Omnibus_Oct_2013_Pictorial.csv.csv
+  metric: RMSE
+  target: age
+- dataset_name: OnCampusArrests.csv
+  metric: MAD
+  target: LIQUOR12
+- dataset_name: opnp.csv
+  metric: Poisson Deviance
+  target: opnp
+- dataset_name: opp.csv
+  metric: Poisson Deviance
+  target: opp
+- dataset_name: photo_quality_full.csv
+  metric: LogLoss
+  target: good
+- dataset_name: photo_quality_small.csv
+  metric: LogLoss
+  target: good
+- dataset_name: PredictFix_train_comments.csv
+  metric: Poisson Deviance
+  target: num_comments
+- dataset_name: PregnancyOutcomes.csv
+  metric: RMSE
+  target: BirthWeight
+- dataset_name: PSID.csv
+  metric: MAD
+  target: earnings
+- dataset_name: pumadyn.csv
+  metric: RMSE
+  target: thetadd6
+- dataset_name: r_recommend_full.csv
+  metric: LogLoss
+  target: Installed
+- dataset_name: r_recommend_small.csv
+  metric: LogLoss
+  target: Installed
+- dataset_name: radon-activity.csv
+  metric: Gamma Deviance
+  target: activity
+- dataset_name: rollingsales_brooklyn.csv
+  metric: MAD
+  target: SALE PRICE
+- dataset_name: rotten_tomatoes_train.csv
+  metric: RMSE
+  target: Sentiment
+- dataset_name: rwm.csv
+  metric: Poisson Deviance
+  target: docvis
+- dataset_name: sarcos-robot-10000.csv
+  metric: RMSE
+  target: Target
+- dataset_name: sarcos-robot.csv
+  metric: RMSE
+  target: Target
